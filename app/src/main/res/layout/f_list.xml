@@ -1,0 +1,18 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mSwipeRefreshLayout"
+    tools:context="com.lebartodev.mercurylab4.ui.fragment.ListFragment"
+    android:background="@color/background_list_color">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/list_articles"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>
